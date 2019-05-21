@@ -1,0 +1,26 @@
+a,
+.anchor {
+  color: $primary;
+  font-weight: 100 !important;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    color: $black;
+  }
+
+  &--default {
+    color: $primary;
+
+    &:hover {
+      color: $black;
+    }
+  }
+
+  &--black {
+    color: $black;
+
+    &:hover {
+      color: lighten($primary, 80);
+    }
+  }
+}
