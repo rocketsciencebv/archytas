@@ -47,6 +47,7 @@ module.exports = {
           {
             // This loader resolves url() and @imports inside CSS
             loader: 'css-loader',
+            options: { url: false, sourceMap: true },
           },
           {
             // Then we apply postCSS fixes like autoprefixer and minifying
