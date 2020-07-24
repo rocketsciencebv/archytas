@@ -1,1 +1,9 @@
-@include font-face('icomoon', '../fonts/icomoon', null, null, eot woff ttf svg);
+@include font-face('icomoon', '../../fonts/icomoon/icomoon', null, null, eot woff ttf svg);
+
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-Thin', 300, normal, ttf);
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-Light', 400, normal, ttf);
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-Regular', normal, normal, ttf);
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-Medium', 600, normal, ttf);
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-SemiBold', 700, normal, ttf);
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-Bold', 800, normal, ttf);
+@include font-face('Montserrat', '../../fonts/Montserrat/Montserrat-Black', 900, normal, ttf);
